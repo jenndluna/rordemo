@@ -12,9 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20170627061243) do
 
-  create_table "hello_worlds", force: :cascade do |t|
+  create_table "versions", force: :cascade do |t|
     t.string "greeting"
-    t.float "version"
+    t.float "versionNumber"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
