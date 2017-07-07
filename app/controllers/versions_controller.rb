@@ -1,16 +1,16 @@
 class VersionsController < ApplicationController
     def index
-       
+       @version = "1.0"
     end
 
     def show
     end
 
     def new
-        @version = Version.new
     end
 
     def create
+        @version = Version.new
     end
 
     def edit
