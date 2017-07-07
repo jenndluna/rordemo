@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+todo: 
+1. add more input boxes, and hook up button to call search method
+2. get api key from zillow
+3. get GET working and return results from zillow
+4. display results in list on new page
 
-Things you may want to cover:
+funsies:
+make the page look pretty?
+try react
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
