@@ -1,5 +1,7 @@
 <%= form_for(@home) do |f| %>
     <%= label_tag(:q, "Enter search criteria") %><br/>
-        <%= label_tag(:q, "# bedrooms") %>
-        <%= text_field_tag (:id_numBedrooms) %>
+        <%= label_tag(:q, "Enter address:") %>
+        <%= text_field_tag (:id_address) %>
+        <%= submit_tag("search") %>
+
 <% end %>

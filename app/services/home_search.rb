@@ -7,7 +7,8 @@ class HomeSearchService
         @addressLine1 = addressLine1
     end
     
-    # def search
+    def search
+        puts "hello"
     #     uri = URI(url)
     #     http = Net::HTTP.new(uri.host, uri.port)
     #     http.use_ssl = true
@@ -17,5 +18,5 @@ class HomeSearchService
     #     request.body = {} # SOME JSON DATA
 
     #     response = http.request(request)
-    # end
+    end
 end
